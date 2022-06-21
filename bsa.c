@@ -6,6 +6,7 @@ typedef struct binarytree
     struct binarytree *leftnode;
     struct binarytree *rightnode;
 } bst;
+
 int main()
 {
 }
