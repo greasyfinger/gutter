@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define int long long
 typedef struct binarytree
 {
     int val;
@@ -28,7 +29,7 @@ bst *insert(bst *node, bst *root)
 }
 int main()
 {
-    int arr[] = {2, 7, 5, 3, 6, 9, 12, 16, 13, 4};
+    int arr[] = {7, 5, 3, 6, 9, 12, 16, 13, 4, 2, 6, 7, 8, 9, 10};
     bst *root = NULL;
     for (int i = 0; i < 10; i++)
     {
